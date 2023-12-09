@@ -49,6 +49,7 @@ REMOVE ME: */
         compatible = "zmk,keymap";
 
         default_layer {
+            display-name = "Default";
             bindings = <
                 &kp A &bl BL_TOG
                 &rgb_ug RGB_EFF &bt BT_CLR
