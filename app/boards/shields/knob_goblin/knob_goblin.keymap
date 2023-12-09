@@ -11,8 +11,8 @@
 / {
     keymap {
         compatible = "zmk,keymap";
-
         default_layer {
+            display-name = "Default";
 
             bindings = <
     &trans           &kp EQUAL       &kp KP_SLASH    &kp KP_MULTIPLY &kp KP_MINUS
@@ -26,6 +26,7 @@
         };
 
         num_layer {
+            display-name = "Num";
             bindings = <
     &trans   &bt BT_CLR      &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2
     &trans   &kp HOME        &trans         &kp PAGE_UP      &trans
